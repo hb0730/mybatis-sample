@@ -1,0 +1,8 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hb0730.mybatis.example.xml.sql.annotation.mvc.mapper.ITestMapper">
+    <resultMap id="result" type="com.hb0730.mybatis.example.xml.sql.annotation.mvc.entity.TestEntity">
+        <id column="id" property="id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+    </resultMap>
+</mapper>
